@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1646423855847" clover="3.2.0">
-  <project timestamp="1646423855847" name="All files">
-    <metrics statements="222" coveredstatements="166" conditionals="54" coveredconditionals="22" methods="25" coveredmethods="16" elements="301" coveredelements="204" complexity="0" loc="222" ncloc="222" packages="9" files="16" classes="16"/>
+<coverage generated="1646425060624" clover="3.2.0">
+  <project timestamp="1646425060624" name="All files">
+    <metrics statements="222" coveredstatements="132" conditionals="54" coveredconditionals="16" methods="25" coveredmethods="13" elements="301" coveredelements="161" complexity="0" loc="222" ncloc="222" packages="9" files="16" classes="16"/>
     <package name="src">
       <metrics statements="20" coveredstatements="17" conditionals="7" coveredconditionals="1" methods="2" coveredmethods="0"/>
       <file name="app.ts" path="/Users/vitaliy/Documents/GitHub/Team-Managment/src/app.ts">
@@ -15,17 +15,17 @@
         <line num="9" count="2" type="stmt"/>
         <line num="10" count="2" type="cond" truecount="1" falsecount="1"/>
         <line num="12" count="2" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
         <line num="16" count="2" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
-        <line num="23" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="25" count="2" type="stmt"/>
-        <line num="27" count="2" type="cond" truecount="0" falsecount="1"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="33" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="25" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.constants">
@@ -36,9 +36,9 @@
       </file>
     </package>
     <package name="src.controllers">
-      <metrics statements="87" coveredstatements="46" conditionals="14" coveredconditionals="3" methods="11" coveredmethods="4"/>
+      <metrics statements="87" coveredstatements="27" conditionals="14" coveredconditionals="1" methods="11" coveredmethods="2"/>
       <file name="authControler.ts" path="/Users/vitaliy/Documents/GitHub/Team-Managment/src/controllers/authControler.ts">
-        <metrics statements="31" coveredstatements="29" conditionals="5" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <metrics statements="31" coveredstatements="17" conditionals="5" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <line num="2" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
@@ -47,32 +47,32 @@
         <line num="7" count="2" type="stmt"/>
         <line num="8" count="2" type="stmt"/>
         <line num="10" count="2" type="stmt"/>
-        <line num="12" count="6" type="stmt"/>
-        <line num="13" count="6" type="stmt"/>
-        <line num="14" count="6" type="stmt"/>
-        <line num="15" count="6" type="stmt"/>
-        <line num="18" count="6" type="cond" truecount="1" falsecount="0"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="26" count="5" type="stmt"/>
-        <line num="31" count="5" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
         <line num="35" count="2" type="stmt"/>
-        <line num="37" count="4" type="stmt"/>
-        <line num="39" count="4" type="stmt"/>
-        <line num="40" count="4" type="cond" truecount="1" falsecount="1"/>
-        <line num="41" count="4" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="41" count="1" type="stmt"/>
         <line num="43" count="0" type="stmt"/>
-        <line num="46" count="4" type="cond" truecount="1" falsecount="0"/>
-        <line num="47" count="1" type="stmt"/>
-        <line num="51" count="3" type="stmt"/>
-        <line num="56" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="46" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="56" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="57" count="0" type="stmt"/>
-        <line num="61" count="3" type="stmt"/>
-        <line num="62" count="3" type="stmt"/>
-        <line num="63" count="3" type="stmt"/>
-        <line num="67" count="3" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
       </file>
       <file name="teamController.ts" path="/Users/vitaliy/Documents/GitHub/Team-Managment/src/controllers/teamController.ts">
-        <metrics statements="56" coveredstatements="17" conditionals="9" coveredconditionals="0" methods="9" coveredmethods="2"/>
+        <metrics statements="56" coveredstatements="10" conditionals="9" coveredconditionals="0" methods="9" coveredmethods="0"/>
         <line num="2" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
@@ -82,10 +82,10 @@
         <line num="10" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
         <line num="17" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
-        <line num="27" count="2" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
         <line num="31" count="2" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
@@ -117,9 +117,9 @@
         <line num="82" count="0" type="stmt"/>
         <line num="83" count="0" type="stmt"/>
         <line num="89" count="2" type="stmt"/>
-        <line num="91" count="1" type="stmt"/>
-        <line num="92" count="1" type="stmt"/>
-        <line num="93" count="1" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
         <line num="99" count="2" type="stmt"/>
         <line num="101" count="0" type="stmt"/>
         <line num="102" count="0" type="stmt"/>
@@ -132,32 +132,32 @@
       </file>
     </package>
     <package name="src.errors">
-      <metrics statements="33" coveredstatements="25" conditionals="24" coveredconditionals="15" methods="5" coveredmethods="5"/>
+      <metrics statements="33" coveredstatements="21" conditionals="24" coveredconditionals="11" methods="5" coveredmethods="5"/>
       <file name="ApiError.ts" path="/Users/vitaliy/Documents/GitHub/Team-Managment/src/errors/ApiError.ts">
-        <metrics statements="25" coveredstatements="17" conditionals="24" coveredconditionals="15" methods="3" coveredmethods="3"/>
+        <metrics statements="25" coveredstatements="13" conditionals="24" coveredconditionals="11" methods="3" coveredmethods="3"/>
         <line num="1" count="2" type="stmt"/>
-        <line num="8" count="5" type="cond" truecount="3" falsecount="1"/>
-        <line num="9" count="5" type="stmt"/>
-        <line num="10" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="14" count="5" type="stmt"/>
-        <line num="15" count="5" type="cond" truecount="4" falsecount="4"/>
+        <line num="8" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="cond" truecount="2" falsecount="6"/>
         <line num="17" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
         <line num="23" count="1" type="stmt"/>
         <line num="25" count="2" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
-        <line num="35" count="5" type="stmt"/>
-        <line num="36" count="5" type="cond" truecount="4" falsecount="4"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="3" type="cond" truecount="2" falsecount="6"/>
         <line num="38" count="0" type="stmt"/>
         <line num="40" count="0" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
         <line num="44" count="1" type="stmt"/>
         <line num="46" count="2" type="stmt"/>
-        <line num="48" count="1" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
         <line num="50" count="0" type="stmt"/>
         <line num="52" count="0" type="stmt"/>
       </file>
@@ -177,9 +177,9 @@
       </file>
     </package>
     <package name="src.middlewares">
-      <metrics statements="42" coveredstatements="38" conditionals="9" coveredconditionals="3" methods="5" coveredmethods="5"/>
+      <metrics statements="42" coveredstatements="27" conditionals="9" coveredconditionals="3" methods="5" coveredmethods="4"/>
       <file name="authorize.ts" path="/Users/vitaliy/Documents/GitHub/Team-Managment/src/middlewares/authorize.ts">
-        <metrics statements="35" coveredstatements="31" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <metrics statements="35" coveredstatements="20" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="3"/>
         <line num="1" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
@@ -188,31 +188,31 @@
         <line num="8" count="2" type="stmt"/>
         <line num="10" count="2" type="stmt"/>
         <line num="11" count="12" type="stmt"/>
-        <line num="12" count="4" type="stmt"/>
-        <line num="13" count="4" type="cond" truecount="0" falsecount="1"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="14" count="0" type="stmt"/>
-        <line num="17" count="4" type="stmt"/>
-        <line num="19" count="4" type="cond" truecount="0" falsecount="1"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="20" count="0" type="stmt"/>
-        <line num="23" count="4" type="cond" truecount="0" falsecount="1"/>
-        <line num="25" count="4" type="stmt"/>
-        <line num="26" count="4" type="stmt"/>
-        <line num="27" count="3" type="stmt"/>
-        <line num="31" count="3" type="cond" truecount="0" falsecount="1"/>
-        <line num="32" count="3" type="stmt"/>
-        <line num="33" count="3" type="stmt"/>
+        <line num="23" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="31" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
         <line num="35" count="1" type="stmt"/>
         <line num="36" count="1" type="stmt"/>
         <line num="40" count="2" type="stmt"/>
         <line num="41" count="2" type="cond" truecount="0" falsecount="1"/>
         <line num="42" count="8" type="stmt"/>
-        <line num="43" count="1" type="stmt"/>
-        <line num="44" count="1" type="stmt"/>
-        <line num="45" count="1" type="stmt"/>
-        <line num="46" count="1" type="stmt"/>
-        <line num="52" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="53" count="1" type="stmt"/>
-        <line num="54" count="1" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="52" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
         <line num="56" count="0" type="stmt"/>
         <line num="57" count="0" type="stmt"/>
       </file>
@@ -221,10 +221,10 @@
         <line num="1" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
-        <line num="7" count="14" type="stmt"/>
-        <line num="8" count="14" type="cond" truecount="3" falsecount="0"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="8" count="8" type="cond" truecount="3" falsecount="0"/>
         <line num="9" count="2" type="stmt"/>
-        <line num="11" count="12" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.models">
@@ -296,7 +296,7 @@
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="3" count="2" type="stmt"/>
         <line num="4" count="16" type="stmt"/>
-        <line num="5" count="13" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
       </file>
     </package>
   </project>
