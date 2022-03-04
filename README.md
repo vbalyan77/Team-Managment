@@ -10,10 +10,10 @@
 POST    /auth/register/                      => {email : string, password : string}  
 POST    /auth/login/                         => {email : string, password : string}  
 POST    /team/                               => {title : string}  
-PUT     /team/add-member/                    => {users : ObjectId/Array<ObjectId>}  => headers : team_id
-PUT     /team/change-role/                   => {member_id : ObjectId}              => headers : team_id
-DELETE  /team/delete-member/                 => {member_id : ObjectId}              => headers : team_id
-DELETE  /team/                               => {}                                  => headers : team_id
+PUT     /team/add-member/                    => {users : ObjectId/Array<ObjectId>}  => headers : team_id  
+PUT     /team/change-role/                   => {member_id : ObjectId}              => headers : team_id  
+DELETE  /team/delete-member/                 => {member_id : ObjectId}              => headers : team_id  
+DELETE  /team/                               => {}                                  => headers : team_id  
 GET     /team/                               => {}                                  => headers : team_id
 
 
